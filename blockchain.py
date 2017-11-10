@@ -10,12 +10,18 @@ from flask import Flask, jsonify, request
 
 
 ###################################################################
-#             PREPARE TO BE ADDED HERE                            #
+#           ADD BLOCKCHAIN CODE HERE                              #
 ###################################################################
 
 
 # Instantiate the Node
 app = Flask(__name__)
+
+###################################################################
+#        ADD NETWORKING CODE HERE                                 #
+###################################################################
+
+
 
 if __name__ == '__main__':
     from argparse import ArgumentParser

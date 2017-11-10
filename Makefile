@@ -31,3 +31,8 @@ venv/bin/activate:
 	@echo "*     source venv/bin/activate                            *"
 	@echo "***********************************************************"
 
+
+install: venv/bin/activate
+
+
+.PHONY: install
